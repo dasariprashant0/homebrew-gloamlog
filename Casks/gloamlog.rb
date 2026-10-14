@@ -1,6 +1,6 @@
 cask "gloamlog" do
-  version "0.6.5"
-  sha256 "a4de9d0173f7222373864479ac3950edc602722bba96f5a9ff8506764aea9645"
+  version "0.6.6"
+  sha256 "30ed8e8823691959f0c4efc60c55424d28a4e63b079d7dea4584a2eb0fcba026"
 
   url "https://github.com/dasariprashant0/gloamlog/releases/download/v#{version}/Gloamlog.zip"
   name "Gloamlog"
