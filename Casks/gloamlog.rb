@@ -4,7 +4,7 @@ cask "gloamlog" do
 
   url "https://github.com/dasariprashant0/gloamlog/releases/download/v#{version}/Gloamlog.zip"
   name "Gloamlog"
-  desc "Work journal that can write itself from Claude Code and Git, kept as local markdown"
+  desc "Work journal that can write itself from Claude Code and Git"
   homepage "https://github.com/dasariprashant0/gloamlog"
 
   livecheck do
@@ -12,7 +12,7 @@ cask "gloamlog" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Gloamlog.app"
 
